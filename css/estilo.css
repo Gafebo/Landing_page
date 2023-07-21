@@ -1,0 +1,71 @@
+* {
+    /* Classe universal */
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Georgia, Times, sans-serif;
+    box-sizing: border-box;
+}
+
+/* colocando menu na horizontal com css */
+#menu-h {
+    background-color: #3c056f;
+}
+
+#menu-h ul {
+    max-width: 80%;
+    /* largura maxima nao pode passar de 80% */
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+    text-align: center;
+}
+
+#menu-h ul li a {
+    color: #dbb4ff;
+    padding: 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .8s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #570b9f;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #570b9f;
+}
+
+/* CSS Banner */
+.text_banner {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%9;
+    color: #3c056f;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+/* css para as imagens pequenas */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 100px 100px;
+    text-align: center;
+
+}
+
+.column img {
+    width: 100px;
+    border: 1px solid #ff00ea;
+    border-radius: 5%;
+    padding: 10px;
+}
